@@ -1,0 +1,215 @@
+.body1{
+    background:linear-gradient(to right,#0278ae,#a5ecd7);
+}
+
+/*sidepanel*/
+.sidepanel{
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #51adcf;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    opacity:0.9;
+  }
+  
+  .sidepanel a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color:#a5ecd7;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidepanel a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidepanel .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+  }
+  .sidepanel a:last-child{
+      position: absolute;
+      bottom: 60px;
+      padding: 8px 8px 8px 32px;
+      text-decoration: none;
+      font-size: 25px;
+      color:#a5ecd7;
+      display: block;
+      transition: 0.3s;
+  }
+  .sidepanel a:last-child:hover {
+    color: #f1f1f1;
+  }
+
+  /*openbtn*/
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #51adcf;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+  }
+  
+  .openbtn:hover {
+    background-color:#a5ecd7;
+  }
+
+  /*heading*/
+  .h1c{
+      text-align: center;
+      color:#a5ecd7;
+      font-size: 50px;
+  }
+
+  .hr1{
+      color:#a5ecd7;
+  }
+
+  /*cretebtn*/
+  .createbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #51adcf;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    float:right;
+  }
+  
+  .createbtn:hover {
+    background-color:#a5ecd7;
+  } 
+
+  /*ceate form*/
+  .container {
+    display: none;
+    padding: 16px;
+    background-color: white;
+    z-index: 9;
+  }
+  
+  
+  input[type=text], input[type=text],input[type=text] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  textarea{
+    width: 100%;
+    height: 200px;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1; 
+  }
+  
+  input[type=text]:focus, input[type=text]:focus, input[type=text]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  textarea:focus{
+    background-color: #ddd;
+    outline: none; 
+  }
+  
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  
+  .registerbtn {
+    background-color: #33B6FF;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .registerbtn:hover {
+    opacity: 1;
+  }
+  
+  a {
+    color: dodgerblue;
+  }
+  
+  .btncancel {
+    background-color: #e26c28;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .btncancel:hover {
+    opacity: 1;
+  }
+
+  /*details part*/
+  .details{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  .details th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #0278ae;
+    color: white;
+  }
+  .details tr:hover{
+    background-color:#ddd ;
+  }
+  .details th,.details td{
+    border:1px solid #ddd;
+    padding: 10px;
+    text-align: justify;
+  }
+  .details2 td:d1 button{
+    text-decoration: none;
+    background-color: #d6601b;
+    color: #f1f1f1;
+    text-align: center;
+  }
+  .details2 td:d1:hover{
+    background-color: rgb(209, 41, 19);
+  }
+  .details1{
+    width: 100%;
+  }
+
+  /*update form*/
+  .form-popup {
+    display: none;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index:1;
+    background-color: #f1f1f1;
+    width: 40%;
+    overflow: auto;
+    position: fixed;
+    top:20%;
+    left: 30%;
+    bottom:2%;
+  }
